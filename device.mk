@@ -101,6 +101,12 @@ PRODUCT_PACKAGES += \
     libxml2 \
     Snap
 
+# Connectivity Engine support (CNE)
+PRODUCT_PACKAGES += \
+    cneapiclient \
+    com.quicinc.cne \
+    services-ext
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8996 \
@@ -148,6 +154,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     ipacm
+
+# IPv6
+PRODUCT_PACKAGES += \
+    ebtables \
+    ethertypes
 
 # IRQ
 PRODUCT_COPY_FILES += \
